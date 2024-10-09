@@ -1,0 +1,160 @@
+    /* Full height image slider */
+    .header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: bgChange 10s infinite;
+    }
+
+    /* Keyframes for image changing effect */
+    @keyframes bgChange {
+    0% { background-image: url('https://picsum.photos/id/0/367/267'); }
+    33% { background-image: url('https://picsum.photos/id/1/367/267'); }
+    66% { background-image: url('https://picsum.photos/id/2/367/267'); }
+    100% { background-image: url('https://picsum.photos/id/3/367/267'); }
+    }
+
+    
+    /* Sidebar section styling */
+    .sidebar {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-top: 20px;
+    }
+
+    /* Services section hover effect */
+    .service-item {
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .service-item a {
+    text-decoration: none;
+    color: inherit;
+    }
+
+    .service-item a:hover {
+    text-decoration: none;
+    color: #007bff;
+    }
+
+    /* Service image styling */
+    .service-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    }
+
+    /* Footer styling */
+    .footer {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    }
+
+    .profile-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+    .profile-link i {
+    margin-right: 5px;
+    }
+
+    .send-message-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    }
+
+    .send-message-btn:hover {
+    background-color: #0056b3;
+    }
+
+    /* Social media icons styling */
+    .social-icons {
+    margin-top: 20px;
+    }
+
+    .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+    color: #007bff;
+    }
+
+    /* Send Message Modal */
+    .modal-header {
+    background-color: #007bff;
+    color: white;
+    }
+
+    .modal-footer .btn-close {
+    background-color: #dc3545;
+    color: white;
+    }
+
+    .img-fluid {
+        border-radius: 15px;
+        width: 350px;
+        height: 300px;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Carousel section styling */
+    .carousel-container {
+    margin: 50px 0;
+    }
+
+    .carousel-item-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    }
+
+    .carousel-video {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #000;
+    }
+
+    .carousel-video iframe {
+    width: 100%;
+    height: 100%;
+    }
+
+    .carousel-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    }
